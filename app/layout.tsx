@@ -14,10 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <StyledComponentsRegistry>
-          <GlobalStyle />
-          {children}
-        </StyledComponentsRegistry>
+        <body>
+          <StyledComponentsRegistry>
+            <GlobalStyle />
+            {children}
+          </StyledComponentsRegistry>
+        </body>
     </html>
   );
 }
