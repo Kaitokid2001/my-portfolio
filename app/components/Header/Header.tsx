@@ -1,12 +1,13 @@
-import dynamic from 'next/dynamic'
 
-import {Wrapper, Title} from "./StyleHeader"
+import {Wrapper, Title, TitleHeading} from "./StyleHeader"
 
 function Header() {
   return (
-        <Wrapper>
-          <Title>huynh anh kiet</Title>
-        </Wrapper>
+        // <Wrapper>
+        //   <TitleHeading>huynh anh kiet</TitleHeading>
+        //   <Title>I'm a front-end developer</Title>
+        // </Wrapper>
+        <></>
   )
 }
 
