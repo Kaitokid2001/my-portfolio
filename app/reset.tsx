@@ -6,11 +6,18 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html, body {
+  
+  html{
+    font-size: 62.5%;
+  }
+
+  body {
     margin: 0;
     padding: 0;
+    font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
   }
+
 
   ul, ol {
     list-style: none;

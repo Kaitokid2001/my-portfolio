@@ -1,11 +1,11 @@
 
-import Header from "./src/components/Header";
+import PagePortfolio from "./src/components/PagePortfolio";
 import {GlobalStyle} from "./src/styles/reset";
 export default function Home() {
   return (
     <>
       <GlobalStyle/>
-      <Header/>
+      <PagePortfolio/>
     </>
   );
 }

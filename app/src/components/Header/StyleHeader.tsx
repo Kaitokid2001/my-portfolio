@@ -2,13 +2,13 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    background-color: black;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
 `
 
 export const TitleHeading = styled.h1`
@@ -28,4 +28,5 @@ export const TitleHeading = styled.h1`
 export const Title = styled.p`
   color: #fff; 
   text-transform: capitalize; 
+  margin-top: 100px;
 `

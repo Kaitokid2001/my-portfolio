@@ -1,9 +1,9 @@
 import Hero from "./Header/Header";
 
-function Header(){
+function PagePortfolio(){
     return(
         <Hero/>
     )
 }
 
-export default Header;
+export default PagePortfolio;
