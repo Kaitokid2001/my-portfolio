@@ -1,10 +1,14 @@
 'use client'
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
-  height: 100vh;
+export const Container = styled.div`
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+`
+
+export const Body = styled.div`
   display: flex;
-  align-items:center;
-  justify-content: space-around;
-  background-color: black;
 `

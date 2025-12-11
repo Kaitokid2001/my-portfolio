@@ -2,6 +2,7 @@
 import styled, { keyframes } from "styled-components"
 
 export const Wrapper = styled.div`
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -9,32 +10,32 @@ export const Wrapper = styled.div`
 `
 
 export const SvgTitle = styled.svg`
-    background: #fff;
-    width: 100%;
-
-    text{
-        font-size: 5rem
-        color:#fff;
-    }
+    background-color: #0f0f29ff;
 `
 
 const TitleHeadingTyping = keyframes`
-    from{
-
-    }to{
-
-    }
+    to {
+    stroke-dashoffset: 0;
+  }
 `
 
 export const TitleHeading = styled.text`
-    font-size: 5rem;
+    font-size: 9rem;
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 650;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: ${TitleHeadingTyping} 2s linear forwards;
 `
 
 const titleTyping = keyframes`
     from{
         width: 0ch;
     }to{
-        width: 22ch;
+        width: 21ch;
     }
 `
 

@@ -1,13 +1,15 @@
 import ImgHeader from "./components/ImgHeader/ImgHeader";
 import TitleHeader from "./components/TitleHeader/TitleHeader";
-import {Wrapper} from "./StyleHeader";
+import {Body, Container} from "./StyleHeader";
 
 function Hero() {
   return (
-        <Wrapper>
-          <ImgHeader/>
-          <TitleHeader/>
-        </Wrapper>
+          <Container>
+            <Body>
+              <ImgHeader/>
+              <TitleHeader/>
+            </Body>
+          </Container>
   )
 }
 
