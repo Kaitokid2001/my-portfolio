@@ -1,8 +1,9 @@
-import Hero from "./Header/Header";
+import Hero from "../components/Header/Header";
+
 
 function PagePortfolio(){
     return(
-        <Hero/>
+            <Hero/>
     )
 }
 

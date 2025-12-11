@@ -1,12 +1,12 @@
-
-import {Wrapper, Title, TitleHeading} from "./StyleHeader"
+import ImgHeader from "./components/ImgHeader/ImgHeader";
+import TitleHeader from "./components/TitleHeader/TitleHeader";
+import {Wrapper} from "./StyleHeader";
 
 function Hero() {
   return (
         <Wrapper>
-          <TitleHeading>huynh anh kiet</TitleHeading>
-          <Title>I&lsquo;m a front-end developer</Title>
-          
+          <ImgHeader/>
+          <TitleHeader/>
         </Wrapper>
   )
 }
