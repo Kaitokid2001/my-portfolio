@@ -3,9 +3,8 @@ import styled from "styled-components";
 import Image from "next/image";
 
 export const Wrapper = styled.div`
-    width: 44%;
+    width: 60%;
     display: flex;
-    
 `
 
 export const WrapperStyle = styled.div`
@@ -24,7 +23,11 @@ export const StyledImage = styled(Image)`
     border-radius: 16px;
     border: 2px solid #fff;
     transform: rotate3d(1, 1, 1, 10deg);
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    } 
     &:hover {
-    transform: rotate(0deg);
-  }
-`;
+        transform: rotate(0deg);
+    }
+    
+`

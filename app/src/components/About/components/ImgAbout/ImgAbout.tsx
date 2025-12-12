@@ -1,8 +1,8 @@
-import { Wrapper, WrapperStyle, StyledImage } from "./ImgHeaderStyles";
+import { Wrapper, WrapperStyle, StyledImage } from "./StylesImgAbout";
 import myImage from "../../../../assets/images/ImageMe.jpg"
 
 
-function ImgHeader(){
+function ImgAbout(){
     return (
         <Wrapper>
             <WrapperStyle>
@@ -15,4 +15,4 @@ function ImgHeader(){
     )
 }
 
-export default ImgHeader;
+export default ImgAbout;

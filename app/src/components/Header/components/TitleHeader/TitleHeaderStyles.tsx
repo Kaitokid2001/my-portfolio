@@ -2,11 +2,9 @@
 import styled, { keyframes } from "styled-components"
 
 export const Wrapper = styled.div`
-    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content: center;
+    align-items: center;
 `
 
 export const SvgTitle = styled.svg`
@@ -20,7 +18,7 @@ const TitleHeadingTyping = keyframes`
 `
 
 export const TitleHeading = styled.text`
-    font-size: 9rem;
+    font-size: 4rem;
     fill: none;
     stroke: white;
     stroke-width: 3px;
@@ -29,6 +27,10 @@ export const TitleHeading = styled.text`
     stroke-linecap: round;
     stroke-linejoin: round;
     animation: ${TitleHeadingTyping} 2s linear forwards;
+
+    @media only screen and (max-width: 1170px) {
+        font-size: 6rem;
+    } 
 `
 
 const titleTyping = keyframes`
@@ -40,13 +42,17 @@ const titleTyping = keyframes`
 `
 
 export const Title = styled.p`
-    margin-top: 60px;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    text-align: center;
     text-transform: capitalize; 
     width: 22ch;
     text-wrap: nowrap;
     overflow: hidden;
-    animation: ${titleTyping} 4s steps(50) 1;
+    animation: ${titleTyping} 2s steps(20) 1;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 1rem;
+    }
 `
 
