@@ -1,12 +1,11 @@
 'use client'
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 1170px;
   max-width: calc(100% - 48px);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+  margin: 0 auto;
+  padding : 150px 0;
   text-align: center;
 `
 export const Title = styled.h1`
@@ -29,7 +28,7 @@ export const Desc = styled.p`
 export const Body = styled.div`
   display: flex;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     flex-direction: column;
     align-items: center;
     justify-content:center;
