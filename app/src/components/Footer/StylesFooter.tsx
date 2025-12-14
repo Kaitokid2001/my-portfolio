@@ -38,7 +38,7 @@ export const Body = styled.div`
     grid-template-columns: auto 450px;
     column-gap: 80px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1000px){
       display: flex;
       flex-direction: column;
     } 
@@ -59,7 +59,7 @@ export const TitleIcon = styled.p`
   line-height: 1.67;
   text-transform: capitalize;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
       margin-top: 50px;
     } 
 `

@@ -37,7 +37,7 @@ export const Body = styled.div`
   display: flex;
   padding: 100px 0;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
     justify-content:center;

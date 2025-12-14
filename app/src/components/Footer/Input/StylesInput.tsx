@@ -106,5 +106,9 @@ export const ButtonSubmit = styled(Button)`
     color: #000;
     background-color: #fff;
     border: 1px solid #fff;
-    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
