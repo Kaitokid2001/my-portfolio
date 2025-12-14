@@ -8,7 +8,12 @@ export const Wrapper = styled.div`
 `
 
 export const SvgTitle = styled.svg`
+    width: 1000px;
     background-color: #17173d;
+
+    @media only screen and (max-width: 1170px) {
+        width: 350px;
+    } 
 `
 
 const TitleHeadingTyping = keyframes`
@@ -18,7 +23,7 @@ const TitleHeadingTyping = keyframes`
 `
 
 export const TitleHeading = styled.text`
-    font-size: 4rem;
+    font-size: 10rem;
     fill: none;
     stroke: white;
     stroke-width: 3px;
@@ -29,7 +34,7 @@ export const TitleHeading = styled.text`
     animation: ${TitleHeadingTyping} 2s linear forwards;
 
     @media only screen and (max-width: 1170px) {
-        font-size: 6rem;
+        font-size: 10rem;
     } 
 `
 
@@ -51,7 +56,7 @@ export const Title = styled.p`
     overflow: hidden;
     animation: ${titleTyping} 2s steps(20) 1;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1170px) {
         font-size: 1rem;
     }
 `

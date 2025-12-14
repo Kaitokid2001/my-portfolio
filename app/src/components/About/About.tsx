@@ -5,7 +5,7 @@ import {Body, Container, Title, Desc} from "./StyleAbout";
 function About() {
   return (
           <Container>
-              <Title>get to know</Title>
+              <Title id="about">get to know</Title>
               <Desc>about me</Desc>
             <Body>
               <ImgAbout/>
