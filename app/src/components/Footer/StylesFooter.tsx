@@ -8,6 +8,9 @@ export const Wrapper = styled.section`
   margin: 0 auto;
   padding: 10px 0 150px;
   text-align: center;
+  @media only screen and (max-width: 768px) {
+    padding: 0;
+  } 
 `
 
 export const Title = styled.p`
@@ -25,12 +28,20 @@ export const Desc = styled.h1`
   line-height: 1.67;
   text-transform: capitalize;
   margin-bottom: 100px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 10px;
+  } 
 `
 
 export const Body = styled.div`
     display: grid;
     grid-template-columns: auto 450px;
     column-gap: 80px;
+
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    } 
 `
 
 export const Icon = styled.div`
@@ -47,4 +58,8 @@ export const TitleIcon = styled.p`
   font-weight: 600;
   line-height: 1.67;
   text-transform: capitalize;
+
+  @media only screen and (max-width: 768px) {
+      margin-top: 50px;
+    } 
 `

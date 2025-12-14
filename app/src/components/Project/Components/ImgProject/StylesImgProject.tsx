@@ -15,6 +15,7 @@ export const StyledImage = styled(Image)`
     border-radius: 16px;
     border: 7px solid #000;
     @media only screen and (max-width: 768px) {
-        width: 100%;
+        width: 350px;
+        height: auto;
     } 
 `

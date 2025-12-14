@@ -7,6 +7,10 @@ export const Container = styled.section`
   margin: 0 auto;
   padding : 150px 0;
   text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    padding :0;
+  } 
 `
 export const Title = styled.h1`
   color: #575F66;
@@ -23,6 +27,10 @@ export const Desc = styled.p`
   line-height: 1.67;
   text-transform: capitalize;
   margin-bottom: 100px;
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 0;
+  } 
 `
 
 export const Body = styled.div`

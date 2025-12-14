@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     justify-content: center;
 
     @media only screen and (max-width: 900px) {
-    margin-top: 100px;
+    margin-top: 20px;
   }
 `
 
@@ -36,6 +36,10 @@ export const ButtonDemo = styled(Button)`
         background-color: #fff;
         border: 1px solid #fff;
     }
+
+    @media only screen and (max-width: 900px) {
+        line-height: 25px;
+  }
 `
 
 export const ButtonView = styled(Button)`
@@ -53,4 +57,8 @@ export const ButtonView = styled(Button)`
         background-color: #fff;
         border: 1px solid #fff;
     }
+
+    @media only screen and (max-width: 900px) {
+        line-height: 25px;
+  }
 `
