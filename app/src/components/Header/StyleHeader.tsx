@@ -2,7 +2,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const Container = styled.section`
-    padding: 200px 0;
+    padding: 250px 0 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,10 +29,14 @@ export const ScrollBar = styled.div`
     height: 50px;
     width: 30px;
     border: 2px solid #fff;
-    margin-top: 200px;
+    margin-top: 300px;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
+
+    @media only screen and (max-width: 1170px) {
+        margin-top: 250px;
+    }
 
     &::before, &::after{
         content: '';
