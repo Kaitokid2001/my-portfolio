@@ -5,28 +5,16 @@ import Image from "next/image";
 export const Wrapper = styled.div`
     width: 60%;
     display: flex;
-`
-
-export const WrapperStyle = styled.div`
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    object-fit: cover;
-    background-color: #0077B6;
+    align-items: center;
 `
 
 export const StyledImage = styled(Image)`
-    width: 470px;
-    height: auto;
+    width: 550px;
+    height: 350px;
     border-radius: 16px;
-    border: 2px solid #fff;
-    transform: rotate3d(1, 1, 1, 10deg);
+    border: 7px solid #000;
     @media only screen and (max-width: 768px) {
         width: 100%;
     } 
-    &:hover {
-        transform: rotate(0deg);
-    }
-    
 `

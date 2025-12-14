@@ -24,5 +24,5 @@ export const Desc = styled.p`
   font-weight: 600;
   line-height: 1.67;
   text-transform: capitalize;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 `

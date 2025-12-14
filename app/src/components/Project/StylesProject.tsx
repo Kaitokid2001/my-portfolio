@@ -10,16 +10,16 @@ export const Container = styled.section`
 `
 export const Title = styled.h1`
   color: #575F66;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 400;
   line-height: 1.2;
   text-transform: capitalize;
 `
 
 export const Desc = styled.p`
   color: #2E80CE;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 600;
   line-height: 1.67;
   text-transform: capitalize;
   margin-bottom: 100px;
@@ -27,6 +27,7 @@ export const Desc = styled.p`
 
 export const Body = styled.div`
   display: flex;
+  padding: 100px 0;
 
   @media only screen and (max-width: 900px) {
     flex-direction: column;
@@ -34,4 +35,3 @@ export const Body = styled.div`
     justify-content:center;
   }
 `
-

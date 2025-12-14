@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 `
 
 export const SvgTitle = styled.svg`
-    background-color: #0f0f29ff;
+    background-color: #17173d;
 `
 
 const TitleHeadingTyping = keyframes`

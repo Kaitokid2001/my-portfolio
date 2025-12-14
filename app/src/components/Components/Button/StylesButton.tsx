@@ -18,6 +18,6 @@ export const Button = styled.button`
     margin-top: 30px;
 
     &:hover{
-        opacity: 0.9;
+        opacity: 0.7;
     }
 `

@@ -3,14 +3,14 @@ import { StaticImageData } from "next/image";
 import IconTitle from "../../../Components/IconTitleSkill/IconTitle";
 import { Wrapper } from "./StylesIconSkill";
 
-type SkillItem = {
+type ServiceProps = {
   image: StaticImageData;
   title: string;
 };
 
 type IconSkillsProps = {
-  skills: SkillItem[];
-};
+  skills: ServiceProps[];
+}
 
 function IconSkills({ skills }: IconSkillsProps) {
   return (
