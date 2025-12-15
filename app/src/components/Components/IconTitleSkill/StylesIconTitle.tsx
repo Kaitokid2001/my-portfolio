@@ -16,3 +16,7 @@ export const Title = styled.p`
     line-height: 1.75;
     margin-top: 10px;
 `
+
+export const Link = styled.a`
+    cursor: pointer;
+`

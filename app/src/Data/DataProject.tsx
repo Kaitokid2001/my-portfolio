@@ -19,7 +19,9 @@ import Tiktok from "../assets/images/tiktok.png";
 export type ProjectItem = {
   image: StaticImageData;
   title: string;
-  icons: StaticImageData[]; 
+  icons: StaticImageData[];
+  linkDemo: string;
+  linkGit: string;
 };
 
 export type Project = {
@@ -29,17 +31,32 @@ export type Project = {
 export const projects: Project[] = [
   {
     project: [
-      { image: Lesson, title: "Lesson", icons: [IconHTML, IconCSS, IconJavaScript, IconGit, IconFigma]},
+      { 
+        image: Lesson, title: "Lesson", 
+        icons: [IconHTML, IconCSS, IconJavaScript, IconGit, IconFigma],
+        linkDemo: "https://kaitokid2001.github.io/lesson/",
+        linkGit: "https://github.com/Kaitokid2001/lesson",
+      },
     ],
   },
   {
     project: [
-      { image: ShineSmile, title: "Shine Smile", icons: [IconHTML, IconTailwindCSS, IconJavaScript, IconGit, IconFigma] },
+      { 
+        image: ShineSmile, title: "Shine Smile", 
+        icons: [IconHTML, IconTailwindCSS, IconJavaScript, IconGit, IconFigma],
+        linkDemo: "https://kaitokid2001.github.io/Du_an_TT/",
+        linkGit: "https://github.com/Kaitokid2001/Du_an_TT",
+      },
     ],
   },
   {
     project: [
-      { image: Tiktok, title: "Tiktok", icons: [IconHTML, IconSCSS, IconJavaScript, IconReactJS, IconNodeJS] },
+      { 
+        image: Tiktok, title: "Tiktok", 
+        icons: [IconHTML, IconSCSS, IconJavaScript, IconReactJS, IconNodeJS],
+        linkDemo: "https:/kaitokid2001.github.io/tiktok-ui/",
+        linkGit: "https://github.com/Kaitokid2001/tiktok-ui",
+      },
     ],
   },
 ];

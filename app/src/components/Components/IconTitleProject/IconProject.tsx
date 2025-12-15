@@ -1,13 +1,16 @@
 import Image, { StaticImageData } from "next/image";
 
-import {Body, Title, Wrapper} from "./StylesIconProject";
+import {Body, Title, Wrapper, ButtonDemo, ButtonView, Link} from "./StylesIconProject";
+import { ActivityIcon, GitIcon } from "../../Components/Icons/Icon";
 
 type ServiceProps = {
     icons: StaticImageData[];
     title: string, 
+    linkDemo: string;
+    linkGit: string;
 }
 
-function IconProject({icons, title}: ServiceProps){
+function IconProject({icons, title, linkDemo, linkGit}: ServiceProps){
     return(
         <Wrapper>
             <Title>{title}</Title>
@@ -21,6 +24,20 @@ function IconProject({icons, title}: ServiceProps){
                         height={35}
                     />
                 ))}
+            </Body>
+            <Body>
+                <Link href={linkDemo}>
+                    <ButtonDemo>
+                        <ActivityIcon/>
+                        Live demo
+                    </ButtonDemo>
+                </Link>
+                <Link href={linkGit}>
+                    <ButtonView>
+                        <GitIcon/>
+                        GitHub
+                    </ButtonView>
+                </Link>
             </Body>
         </Wrapper>
     );

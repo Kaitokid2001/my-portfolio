@@ -1,12 +1,14 @@
 import { StaticImageData } from "next/image";
 
-import { Body, Wrapper, ButtonDemo, ButtonView} from "./StylesTitleProject";
+import { Wrapper} from "./StylesTitleProject";
 import IconProject from "../../../Components/IconTitleProject/IconProject";
-import { ActivityIcon, GitIcon } from "../../../Components/Icons/Icon";
+
 
 type ServiceProps = {
     icons: StaticImageData[];
     title: string,
+    linkDemo: string;
+    linkGit: string;
 }
 
 type IconProjectsProps = {
@@ -22,18 +24,10 @@ function TitleProject({projects}:IconProjectsProps) {
             key={index}
             icons={item.icons}
             title={item.title}
+            linkDemo={item.linkDemo}
+            linkGit={item.linkGit}
           />
       ))}
-          <Body>
-            <ButtonDemo>
-              <ActivityIcon/>
-              Live demo
-            </ButtonDemo>
-            <ButtonView>
-              <GitIcon/>
-              my resume
-            </ButtonView>
-          </Body>
         </Wrapper>
   )
 }
