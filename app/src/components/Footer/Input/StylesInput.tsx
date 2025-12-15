@@ -124,7 +124,7 @@ export const ButtonSubmit = styled(Button)`
     border: 1px solid #fff;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     width: 100%;
   }
 `
