@@ -11,7 +11,6 @@ import IconTailwindCSS from "../public/icons/tailwindcss.svg";
 import IconSCSS from "../public/icons/sass.svg";
 import IconGit from "../public/icons/github.svg";
 import IconFigma from "../public/icons/figma.svg";
-import IconStyledComponent from "../public/icons/styled-components.svg";
 
 import Lesson from "../assets/images/lesson.png";
 import ShineSmile from "../assets/images/shinesmile.png";
@@ -30,7 +29,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     project: [
-      { image: Lesson, title: "Lesson", icons: [IconHTML, IconCSS, IconJavaScript, IconGit, IconFigma] },
+      { image: Lesson, title: "Lesson", icons: [IconHTML, IconCSS, IconJavaScript, IconGit, IconFigma]},
     ],
   },
   {
