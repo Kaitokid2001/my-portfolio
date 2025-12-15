@@ -41,6 +41,7 @@ export const Body = styled.div`
     @media only screen and (max-width: 1000px){
       display: flex;
       flex-direction: column;
+      gap: 50px;
     } 
 `
 
@@ -58,8 +59,4 @@ export const TitleIcon = styled.p`
   font-weight: 600;
   line-height: 1.67;
   text-transform: capitalize;
-
-  @media only screen and (max-width: 900px) {
-      margin-top: 50px;
-    } 
 `

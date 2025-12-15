@@ -1,3 +1,4 @@
+"use client"
 import Image, { StaticImageData } from "next/image";
 
 import {Body, Title, Wrapper, ButtonDemo, ButtonView, Link} from "./StylesIconProject";
@@ -26,13 +27,13 @@ function IconProject({icons, title, linkDemo, linkGit}: ServiceProps){
                 ))}
             </Body>
             <Body>
-                <Link href={linkDemo}>
+                <Link href={linkDemo} target="_blank">
                     <ButtonDemo>
                         <ActivityIcon/>
                         Live demo
                     </ButtonDemo>
                 </Link>
-                <Link href={linkGit}>
+                <Link href={linkGit} target="_blank">
                     <ButtonView>
                         <GitIcon/>
                         GitHub

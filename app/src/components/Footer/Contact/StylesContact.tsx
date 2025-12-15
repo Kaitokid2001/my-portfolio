@@ -6,11 +6,15 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
 `
+export const LinkProfile = styled.a`
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+`
 
 export const Title = styled.h1`
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.75;
-    margin-left: 20px;
 `
