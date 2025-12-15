@@ -12,7 +12,8 @@ export const Wrapper = styled.div`
 
     .error {
       color: red;
-      font-size: 12px;
+      font-family: "Poppins", sans-serif;
+      font-size: 0.8rem;
       position: absolute;
     }
 
