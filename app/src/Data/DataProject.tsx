@@ -54,7 +54,7 @@ export const projects: Project[] = [
       { 
         image: Tiktok, title: "Tiktok", 
         icons: [IconHTML, IconSCSS, IconJavaScript, IconReactJS, IconNodeJS],
-        linkDemo: "https:/kaitokid2001.github.io/tiktok-ui/",
+        linkDemo: "https://kaitokid2001.github.io/tiktok-ui/",
         linkGit: "https://github.com/Kaitokid2001/tiktok-ui",
       },
     ],
