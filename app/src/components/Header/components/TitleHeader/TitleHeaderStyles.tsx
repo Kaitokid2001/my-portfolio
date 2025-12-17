@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 `
 
 export const SvgTitle = styled.svg`
-    width: 900px;
+    width: 800px;
     background-color: #17173d;
 
     @media only screen and (max-width: 1170px) {

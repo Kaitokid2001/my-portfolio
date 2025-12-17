@@ -26,20 +26,20 @@ function Input() {
     const newErrors: Errors = {};
 
     if (!name.trim()) {
-      newErrors.name = "Vui lòng nhập tên";
+      newErrors.name = "Please enter name";
     }
 
     if (!email.trim()) {
-      newErrors.email = "Vui lòng nhập email";
+      newErrors.email = "Please enter email";
     } else {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
-        newErrors.email = "Email không hợp lệ";
+        newErrors.email = "Invalid email";
       }
     }
 
     if (!message.trim()) {
-      newErrors.message = "Vui lòng nhập nội dung";
+      newErrors.message = "Please enter the content";
     }
 
     setErrors(newErrors);
@@ -50,7 +50,7 @@ function Input() {
   const handleSubmit = () => {
     if (!validate()) return;
 
-    // ✅ Thành công
+    // Thành công
     setName("");
     setEmail("");
     setMessage("");
