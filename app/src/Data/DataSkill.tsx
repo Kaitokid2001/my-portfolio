@@ -12,6 +12,8 @@ import IconFigma from "../public/icons/figma.svg";
 import IconStyledComponent from "../public/icons/styled-components.svg";
 import IconBootstrap from "../public/icons/bootstrap.svg";
 import IconPhotoShop from "../public/icons/photoshop.svg";
+import IconExpress from "../public/icons/express.svg";
+import IconMongoDB from "../public/icons/mongodb.svg";
 
 
 export const skills = [
@@ -29,4 +31,6 @@ export const skills = [
   { image: IconFigma, title: "Figma", link: "https://www.figma.com"},
   { image: IconBootstrap, title: "Bootstrap 5", link: "https://getbootstrap.com/docs/5.0/getting-started/introduction/"},
   { image: IconPhotoShop, title: "Photoshop", link: "https://www.adobe.com/vn_vi/products/photoshop/landpa.html?sdid=GVTYXXRQ&mv=search&mv2=paidsearch&ef_id=Cj0KCQiAgP_JBhD-ARIsANpEMxzZwv_SUvEuRwEvrNhHEtSJTSNrgEgjHVwQmx4BNgXTXLQ94i9kF18aArv2EALw_wcB:G:s&s_kwcid=AL!3085!3!708103332652!e!!g!!adobe%20photoshop!21537535815!165604689077&gad_source=1&gad_campaignid=21537535815&gbraid=0AAAAADra"},
+  { image: IconExpress, title: "ExpressJS", link: "https://expressjs.com/"},
+  { image: IconMongoDB, title: "MongoDB", link: "https://www.mongodb.com/"},
 ];

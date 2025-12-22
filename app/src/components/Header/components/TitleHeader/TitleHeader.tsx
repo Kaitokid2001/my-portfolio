@@ -6,7 +6,7 @@ function Hero() {
           <SvgTitle viewBox="0 0 1300 200">
             <TitleHeading x="50%" y="65%" textAnchor="middle">HUYNH ANH KIET</TitleHeading>
           </SvgTitle>
-            <Title >I&lsquo;m a frontend developer</Title> 
+            <Title >I&lsquo;m a fullstack developer</Title> 
         </Wrapper>
   )
 }
