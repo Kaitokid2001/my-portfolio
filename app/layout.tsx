@@ -10,7 +10,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Huynh-Anh-Kiet-Front-End-Developer",
+  title: "Huynh-Anh-Kiet-FullStack-Developer",
   description: "Xin chao toi ten Kiet",
   icons: {
     icon: '/favicon.ico',
